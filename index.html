@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>AI PSD Designer - Photopea</title>
+
+<style>
+body{
+    font-family:Arial;
+    background:#111827;
+    color:white;
+    padding:40px;
+}
+
+.container{
+    max-width:700px;
+    margin:auto;
+    background:#1f2937;
+    padding:30px;
+    border-radius:15px;
+}
+
+input,textarea{
+    width:100%;
+    padding:12px;
+    margin:8px 0 15px;
+    border-radius:8px;
+    border:0;
+}
+
+button{
+    width:100%;
+    padding:15px;
+    background:#d4af37;
+    border:0;
+    border-radius:10px;
+    font-size:18px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+h1{
+    text-align:center;
+}
+</style>
+
+</head>
+
+
+<body>
+
+<div class="container">
+
+<h1>Luxury Real Estate PSD Generator</h1>
+
+
+<label>Builder Name</label>
+<input id="builder" value="LALWANI GROUP - JAY DEVELOPERS">
+
+
+<label>Project Name</label>
+<input id="project" value="SAI PARK">
+
+
+<label>Headline</label>
+<input id="headline" value="Modern Luxury Living">
+
+
+<label>Property</label>
+<input id="property" value="Premium 2 BHK Homes | Ready Possession">
+
+
+<label>CTA</label>
+<input id="cta" value="Book Your Site Visit">
+
+
+<label>Phone</label>
+<input id="phone" value="+91 73787 87890">
+
+
+<label>Address</label>
+<textarea id="address">
+S.No.79, Opp. New English School,
+Visitgaon, Pathardi Link Road,
+Nashik Road
+</textarea>
+
+
+<label>RERA</label>
+<input id="rera" value="P51600022232">
+
+
+<button onclick="generatePSD()">
+CREATE PSD IN PHOTOPEA
+</button>
+
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
